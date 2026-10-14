@@ -12,7 +12,7 @@ Two colour frames in, the picture between them out. Compute shaders on the PS5's
 
 </div>
 
-MihawkGen turns a 60 fps picture into 120 fps on a base PS5. It works on the *pictures* a title shows, so it needs nothing from the title: no engine data, no motion vectors. It also runs inside RetroArch's Vulkan driver. When a title does hand over depth and motion vectors, a second method (`mvsplat`) uses them.
+MihawkGen turns a 30 or 60 fps picture into 120 fps on a base PS5: one generated picture between two real frames at 60 fps, three at 30 fps. It works on the *pictures* a title shows, so it needs nothing from the title: no engine data, no motion vectors. It also runs inside RetroArch's Vulkan driver. When a title does hand over depth and motion vectors, a second method (`mvsplat`) uses them.
 
 ## Why it is small
 
